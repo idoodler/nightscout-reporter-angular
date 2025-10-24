@@ -428,7 +428,13 @@ export class PdfService {
           bolditalics: 'ipagp.ttf'
         };
       } else {
-        fonts['Hebrew'] = {
+      fonts['Emoji'] = {
+          normal: 'NotoColorEmoji.ttf',
+          bold: 'NotoColorEmoji.ttf',
+          italics: 'NotoColorEmoji.ttf',
+          bolditalics: 'NotoColorEmoji.ttf'
+        };
+   fonts['Hebrew'] = {
           normal: 'Open Sans Hebrew.ttf',
           bold: 'Open Sans Hebrew Bold.ttf',
           italics: 'Open Sans Hebrew Italic.ttf',
